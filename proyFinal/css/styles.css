@@ -1,0 +1,236 @@
+/*
+Estilos realizados por Simón Green Feldman, Carlos Abraham López López, Fernanda Corona Haneine, Carlos Jesús Almeraz Aizpuru, Luis Adrián Morales Contreras
+*/
+header {
+    background-color: #ff0032;
+    height: 12vh;
+}
+header img {
+    width: 138px;
+    height: 61px;
+}
+header a:hover {
+    text-decoration: none;
+}
+.main-image {
+    background-image: url("../img/explanada.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: auto 0;
+    height: 88vh;
+    padding-top: 0;
+}
+.main-image * {
+    margin-top: 40px;
+}
+.op {
+    background-color: rgba(139,60,60,0.31);
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    margin: 0;
+}
+.bigTitle {
+    color: white;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+}
+.smallTitle {
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+}
+.loginForm {
+    margin-left: 60px;
+}
+.loginForm input, select {
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.loginForm input:first-child {
+    margin-right: 0;
+}
+
+.loginForm input[name="digito"] {
+    width: 60px;
+    height: 60px;
+}
+.loginForm input[type="submit"] {
+    background-color: #ff0032;
+    border: none;
+    width: 120px;
+    color: white;
+}
+.infoUser {
+    padding-top: 25px;
+    color: #47525E;
+}
+.infoUser h3 {
+    font-weight: bold;
+}
+.infoUser p {
+    color: #8190A5;
+    text-align: justify;
+    width: 80%;
+}
+.button {
+    margin-top: 20px;
+}
+.button a  {
+    background-color: #ff0032;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button a:hover  {
+    text-decoration: none;
+}
+.solicitudes {
+    margin-top: 60px;
+    color: #47525E;
+}
+.tableTitle {
+    font-weight: bold;
+}
+.aproved {
+    color: #77D353;
+}
+.rejected {
+    color: #F95F62;
+}
+.editBtn a  {
+    background-color: #47525E;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.editBtn a:hover  {
+    text-decoration: none;
+}
+.solicitudes .row {
+    margin-bottom: 40px;
+}
+a i {
+    color: white;
+    margin-right: 5px;
+}
+a.right {
+    color: white;
+    font-weight: bold;
+    margin-left: 80%;
+}
+.viewBtn a  {
+    background-color: white;
+    border: 2px solid #EE393D;
+    color: #5A6978;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 7px;
+    transition: background-color 0.8s, border 0.4s;
+}
+.viewBtn a:hover  {
+    background-color: #ff7174;
+    text-decoration: none;
+    border: 0px solid #EE393D;
+}
+.rejectBtn button {
+    background-color: #FD092F;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 7px;
+    width: 40%;
+    margin: 0;
+}
+.rejectBtn button:hover {
+    background-color: #FD092F;
+}
+.acceptBtn a {
+    background-color: #77D353;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 7px;
+    width: 40%;
+}
+.acceptBtn a:hover {
+    text-decoration: none;
+}
+.modal-body form {
+    width: 90%;
+    margin: auto;
+}
+.modal-body form input {
+    margin-bottom: 20px;
+}
+.modal-body form input.rejectBtn {
+    background-color: #FD092F;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 7px;
+    width: 40%;
+    margin-left: 30%;
+}
+.modal-body form input.rejectBtn:hover {
+    cursor: pointer;
+}
+.solForm textarea{
+    width: 60%;
+    min-height: 200px;
+    resize: none;
+}
+.btnAdd button {
+    background-color: white;
+    font-size: 1.3em;
+    padding: 0;
+    color: #d10021;
+    transition: font-size 0.2s;
+    font-weight: bolder;
+}
+.btnAdd button:hover {
+    font-size: 1.35em;
+}
+.fileBtn {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.fileBtn + label {
+    background-color: white;
+    border: 2px solid #EE393D;
+    color: #5A6978;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 7px;
+    transition: background-color 0.8s, border 0.4s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hid {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.sendBtn a {
+    background-color: #FD092F;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 60px;
+    border-radius: 7px;
+}
+.sendBtn a:hover {
+    background-color: #FD092F;
+    text-decoration: none;
+}

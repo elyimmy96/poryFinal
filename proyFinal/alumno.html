@@ -1,0 +1,104 @@
+﻿<!-- Realizado por Simón Green Feldman, Carlos Abraham López López, Fernanda Corona Haneine, Carlos Jesús Almeraz Aizpuru, Luis Adrián Morales Contreras -->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Ponemos meta y title -->
+        <meta charset="utf-8" />
+        <title>Sistema de Indultos</title>
+        <!-- Ponemos el meta para Bootstrap funcione correctamente -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Cargamos los estilos de Font Awesoma y Bootstrap -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Sticky-top es para que el menú se quede hasta arriba -->
+        <!-- Esto es el encabezado de la página -->
+        <header class="container-fluid p-2 sticky-top">
+            <!-- Creamos la barra de hasta arriba (donde está nuestra información) Nota: Ver MockUp -->
+            <div class="container-fluid p-0">
+                <a href="index.html">
+                    <img src="img/ibero.jpg" alt="Ibero"/>
+                </a>
+                <a class="right" href="#">Salir</a>
+            </div>
+        </header>
+        <!-- Esto es lo principal de la página -->
+        <main class="container-fluid p-0 mb-0">
+            <section class="container main">
+                <div class="row infoUser">
+                    <div class="col-10">
+                        <h3>María Fernanda Corona Haneine</h3>
+                        <h5>Ingeniería en Tecnologías de Cómputo y Telecomunicaciones</h5>
+                    </div>
+                    <div class="col-2 button">
+                        <a href="#">Agregar Solicitud</a>
+                    </div>
+                </div>
+                <div class="solicitudes">
+                    <div class="row">
+                        <div class="col-3">
+                            <h5 class="tableTitle">Solicitud:</h5>
+                        </div>
+                        <div class="col-3">
+                            <h5 class="tableTitle">Fecha:</h5>
+                        </div>
+                        <div class="col-3">
+                            <h5 class="tableTitle">Estatus:</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Indulto</p>
+                        </div>
+                        <div class="col-3">
+                            <p>19-04-2018</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="aproved">Aprobado</p>
+                        </div>
+                        <div class="col-3 editBtn">
+                            <a href="#"><i class="fas fa-pencil-alt"></i>Editar</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Cambio de Calificación</p>
+                        </div>
+                        <div class="col-3">
+                            <p>19-04-2018</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="rejected">Rechazado</p>
+                        </div>
+                        <div class="col-3 editBtn">
+                            <a href="#"><i class="fas fa-pencil-alt"></i>Editar</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>Cambio de Calificación</p>
+                        </div>
+                        <div class="col-3">
+                            <p>19-04-2018</p>
+                        </div>
+                        <div class="col-3">
+                            <p>En espera</p>
+                        </div>
+                        <div class="col-3 editBtn">
+                            <a href="#"><i class="fas fa-pencil-alt"></i>Editar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Cargamos jQuery, Popper y Bootstrap, hasta el final por buenas prácticas -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
